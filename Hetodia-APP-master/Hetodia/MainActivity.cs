@@ -19,7 +19,7 @@ namespace hetodia
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            StartActivity(typeof(CMenuDoctor));
+            StartActivity(typeof(CMenuPaciente));
         }
     }
 }
