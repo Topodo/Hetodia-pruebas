@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="DIETA Y REGIMEN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="51.0dp"
+        android:id="@+id/dietaRegimen"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <Button
+        android:text="Lista de Comida proporcionada"
+        android:layout_width="match_parent"
+        android:layout_height="177.5dp"
+        android:id="@+id/buttonListaComida"
+        android:layout_margin="30dp"
+        android:textSize="35dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark" />
+    <Button
+        android:text="Buscador de alimentos"
+        android:layout_width="match_parent"
+        android:layout_height="177.5dp"
+        android:id="@+id/buttonListaComida"
+        android:layout_margin="30dp"
+        android:textSize="35dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_dark" />
+</LinearLayout>

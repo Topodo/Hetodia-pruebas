@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+    <TextView
+        android:text="EDICIÓN ISOMÉTRICOS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/isometricos"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center" />
+    <TextView
+        android:text="&quot;Nombre del paciente&quot;"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="42.0dp"
+        android:id="@+id/textnombrePaciente"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:gravity="center" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="28.0dp"
+        android:id="@+id/gridLayout2"
+        android:columnCount="4"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Ejercicio"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="30dp"
+            android:textSize="25dp"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:text="Serie"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="30dp"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:text="Retry"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:text="Tiempo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp" />
+    </GridLayout>
+    <GridLayout
+        android:layout_width="380.0dp"
+        android:layout_height="168.5dp"
+        android:id="@+id/gridLayout1"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:layout_marginTop="20dp">
+        <CheckBox
+            android:text="CheckBox1"
+            android:id="@+id/checkBoxAero1"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:button="@android:drawable/checkbox_off_background"
+            android:layout_width="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/registroReaccionAlergica1"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/registroReaccionAlergica1"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp" />
+        <CheckBox
+            android:text="CheckBox2"
+            android:id="@+id/checkBoxAero2"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:button="@android:drawable/checkbox_off_background"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/registroReaccionAlergica1"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/registroReaccionAlergica1"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <CheckBox
+            android:text="CheckBox3"
+            android:id="@+id/checkBoxAero3"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:button="@android:drawable/checkbox_off_background"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/registroReaccionAlergica1"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/registroReaccionAlergica1"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+    </GridLayout>
+    <Button
+        android:text="GUARDAR"
+        android:layout_width="183.5dp"
+        android:layout_height="62.0dp"
+        android:id="@+id/buttonGuardariso"
+        android:layout_marginRight="0.0dp"
+        android:layout_gravity="right"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="135dp" />
+</LinearLayout>

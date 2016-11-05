@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="FARMACIA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/farmacia"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <Button
+        android:text="&quot;Medicamento 1&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/buttonMedicamento1"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:text="&quot;Medicamento 2&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/buttonMedicamento2"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:text="&quot;Medicamento 3&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/buttonMedicamento3"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:text="&quot;Medicamento 4&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/buttonMedicamento4"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:text="&quot;Medicamento 5&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="54.5dp"
+        android:id="@+id/buttonMedicamento5"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

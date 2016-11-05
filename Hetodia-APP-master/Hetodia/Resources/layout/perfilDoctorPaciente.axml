@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:text="Perfil de Doctor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/buscadorAlimentos"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center" />
+    <ImageView
+        android:src="@drawable/usuariodesc"
+        android:layout_width="match_parent"
+        android:layout_height="238.5dp"
+        android:id="@+id/imageFotoPerfil"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_margin="20dp" />
+    <TextView
+        android:text="Nombre doctor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="25dp" />
+    <TextView
+        android:text="Nombre Establecimiento"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@color/texto_gris"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:paddingBottom="25dp" />
+    <TextView
+        android:text="Dirección del establecimiento tratante, Comuna, Ciudad."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:background="@android:color/holo_blue_dark" />
+</LinearLayout>

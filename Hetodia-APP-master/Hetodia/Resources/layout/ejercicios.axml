@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text=" EJERCICIOS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/Ejercicios"
+        android:textColor="@android:color/black"
+        android:textSize="35dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <TextView
+        android:text="&quot;Mensaje Motivacional&quot;"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="194.0dp"
+        android:id="@+id/textMensajeMotivacional"
+        android:layout_margin="30dp"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <Button
+        android:text="Lista de Ejercicios"
+        android:layout_width="match_parent"
+        android:layout_height="47.0dp"
+        android:id="@+id/buttonListaEjercicios"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:text="Avance de Ejercicios"
+        android:layout_width="match_parent"
+        android:layout_height="47.0dp"
+        android:id="@+id/buttonAvanceEjercicios"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

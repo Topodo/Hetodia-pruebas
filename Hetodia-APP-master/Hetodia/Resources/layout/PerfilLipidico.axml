@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="PERFIL HEPÁTICO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="59.5dp"
+        android:id="@+id/textoperfilLipídico"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAlbumina"
+        android:text="Albúmina"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFosfatasaA"
+        android:text="Fosfatasa Alcalina"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textALT"
+        android:text="ALT (Alanina aminotransferasa)"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAST"
+        android:text="AST (Aspartato aminotransferasa)"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTransaminasa"
+        android:text="Transaminasa GGt"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textBilirrubina"
+        android:text="Bilirrubina"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTransaminasa"
+        android:text="TP (Tiempo de protrombina )"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <Button
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="66.0dp"
+        android:id="@+id/buttonGuardar"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_margin="20dp" />
+</LinearLayout>

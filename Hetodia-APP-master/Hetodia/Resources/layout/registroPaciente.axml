@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="REGISTRO PACIENTE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="59.5dp"
+        android:id="@+id/tituloMisDatosClini"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registronombre"
+        android:text="Nombre Completo"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registronombre"
+        android:text="Rut"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroDireccion"
+        android:text="Dirección"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroFechaNacimiento"
+        android:text="Fecha Nacimiento"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroContraseña"
+        android:text="Contraseña"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroPesoA"
+        android:text="Peso Actual"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroPesoI"
+        android:text="Peso Ideal"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <Button
+        android:text="Perfil Hepático"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:id="@+id/buttonPerfilHepatico"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:text="Perfil Lipídico"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:id="@+id/buttonPerfilLipidico"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp" />
+    <Button
+        android:text="Continuar"
+        android:layout_width="match_parent"
+        android:layout_height="72.0dp"
+        android:id="@+id/buttonContinuar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp" />
+</LinearLayout>

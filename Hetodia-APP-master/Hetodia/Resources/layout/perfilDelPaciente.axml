@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:text="Tu Perfil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/perfil"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center" />
+    <ImageView
+        android:src="@drawable/usuariodesc"
+        android:layout_width="match_parent"
+        android:layout_height="238.5dp"
+        android:id="@+id/imageView1"
+        android:background="@android:color/white"
+        android:layout_margin="20dp" />
+    <TextView
+        android:text="Nombre Usuario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNombreUsuario"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:padding="5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:padding="5dp">
+        <TextView
+            android:text="Peso Ideal: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textPesoIdeal"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:textColor="@color/texto_gris"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="65dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:textSize="25dp" />
+        <TextView
+            android:text=" Kgs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textPesoIdeal"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:textColor="@color/texto_gris"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:padding="5dp">
+        <TextView
+            android:text="Peso Actual: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textPesoIdeal"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:textColor="@color/texto_gris"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="82dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:textSize="25dp" />
+        <TextView
+            android:text=" Kgs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textPesoIdeal"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:textColor="@color/texto_gris"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center"
+        android:padding="5dp">
+        <TextView
+            android:text="Rendimiento: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textPesoIdeal"
+            android:gravity="center"
+            android:background="@android:color/white"
+            android:textColor="@color/texto_gris"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="100dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>

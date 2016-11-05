@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="AVANCE DE EJERCICIOS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="51.0dp"
+        android:id="@+id/avanceEjercicios"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <Button
+        android:text="&quot;Ejercicio 1&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="47.0dp"
+        android:id="@+id/buttonEjercicio1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:text="&quot;Ejercicio 2&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="44.5dp"
+        android:id="@+id/buttonEjercicio2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:text="&quot;Ejercicio 3&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="42.0dp"
+        android:id="@+id/buttonEjercicio3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:text="&quot;Ejercicio 4&quot;"
+        android:layout_width="match_parent"
+        android:layout_height="44.0dp"
+        android:id="@+id/buttonEjercicio4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="10dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="56.0dp"
+        android:id="@+id/selecciontiempo"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="61.0dp"
+        android:id="@+id/buttonIrAGrafico"
+        android:text="Ir a gráfico de avance "
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5.0dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_dark" />
+</LinearLayout>

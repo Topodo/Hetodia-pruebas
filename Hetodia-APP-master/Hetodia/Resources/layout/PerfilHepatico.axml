@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="PERFIL LIPÍDICO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="59.5dp"
+        android:id="@+id/textoperfilLipídico"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTrigli"
+        android:text="Triglicéridos"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textHDL"
+        android:text="HDL (lipoproteína de alta densidad)"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLDL"
+        android:text="LDL (lipoproteína de baja densidad)"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textVLDL"
+        android:text="VLDL (lipoproteína de muy baja densidad)"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textHomocisteina"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Homocisteína" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textProteínaC"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Proteína C" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApoliproteinaA1"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Apoliproteína A1" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApoliproteínaB"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Apoliproteína B" />
+    <Button
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="66.0dp"
+        android:id="@+id/buttonGuardar"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_margin="20dp" />
+</LinearLayout>

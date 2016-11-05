@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="CONFIGURACIÓN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/configuracion"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <TextView
+        android:text="Tipo de fuente"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="46.5dp"
+        android:id="@+id/textotipoFuente"
+        android:textSize="25dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="43.0dp"
+        android:id="@+id/spinnerTipoFuente" />
+    <TextView
+        android:text="Tamaño de fuente"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="41.0dp"
+        android:id="@+id/textotamañoFuente"
+        android:textSize="25dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="43.0dp"
+        android:id="@+id/spinnerTamañoFuente" />
+    <TextView
+        android:text="Aspecto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="43.0dp"
+        android:id="@+id/textoAspecto"
+        android:textSize="25dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="43.0dp"
+        android:id="@+id/spinnerAspecto" />
+    <RadioButton
+        android:text="Rotación"
+        android:layout_width="match_parent"
+        android:layout_height="48.0dp"
+        android:id="@+id/radioButtonRotacion"
+        android:textSize="25dp"/>
+</LinearLayout>

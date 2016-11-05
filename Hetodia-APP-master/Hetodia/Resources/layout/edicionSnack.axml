@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+    <TextView
+        android:text="EDICIÓN SNACK"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/snack"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center" />
+    <TextView
+        android:text="&quot;Nombre del paciente&quot;"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="42.0dp"
+        android:id="@+id/textnombrePaciente"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:gravity="center" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="28.0dp"
+        android:id="@+id/gridLayout2"
+        android:columnCount="5"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Real"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:text="Alimento"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="35dp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:text="Porción"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:text="Gr."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:text="N° "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="15dp" />
+    </GridLayout>
+    <GridLayout
+        android:layout_width="380.0dp"
+        android:layout_height="168.5dp"
+        android:id="@+id/gridLayout1"
+        android:columnCount="5"
+        android:rowCount="4"
+        android:layout_marginTop="20dp">
+        <Spinner
+            android:id="@+id/spinner1" />
+        <CheckBox
+            android:text="Alimento1"
+            android:id="@+id/checkBoxAero1"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:button="@android:drawable/checkbox_off_background"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="25dp" />
+        <Spinner
+            android:id="@+id/spinner1" />
+        <CheckBox
+            android:text="Alimento2"
+            android:id="@+id/checkBoxAero2"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:button="@android:drawable/checkbox_off_background"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="25dp" />
+        <Spinner
+            android:id="@+id/spinner1" />
+        <CheckBox
+            android:text="Alimento3"
+            android:id="@+id/checkBoxAero3"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:button="@android:drawable/checkbox_off_background"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp" />
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/Serie"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="25dp" />
+    </GridLayout>
+</LinearLayout>

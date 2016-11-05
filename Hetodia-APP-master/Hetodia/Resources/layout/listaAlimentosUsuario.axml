@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="LISTA ALIMENTOS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="74.0dp"
+        android:id="@+id/Alimentos"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <Button
+        android:text="Desayuno"
+        android:layout_width="match_parent"
+        android:layout_height="79.0dp"
+        android:id="@+id/buttonDesayuno"
+        android:textSize="40dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:text="Almuerzo"
+        android:layout_width="match_parent"
+        android:layout_height="79.0dp"
+        android:id="@+id/buttonAlmuerzo"
+        android:textSize="40dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:text="Cena"
+        android:layout_width="match_parent"
+        android:layout_height="79.0dp"
+        android:id="@+id/buttonCena"
+        android:textSize="40dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:text="Snack"
+        android:layout_width="match_parent"
+        android:layout_height="79.0dp"
+        android:id="@+id/buttonSnack"
+        android:textSize="40dp"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp" />
+</LinearLayout>

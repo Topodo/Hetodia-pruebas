@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+  <TextView
+      android:text="EJERCICIO N°1"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="74.0dp"
+      android:id="@+id/ejercicio1"
+      android:textColor="@android:color/black"
+      android:textSize="30dp"
+      android:background="@android:color/holo_orange_light"
+      android:gravity="center" />
+  <ImageView
+      android:src="@android:drawable/ic_menu_gallery"
+      android:layout_width="match_parent"
+      android:layout_height="196.5dp"
+      android:id="@+id/imagenejercicio1"
+      android:background="@android:color/holo_green_light" />
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="200.0dp"
+      android:id="@+id/textoEjercicio1"
+      android:textColor="@android:color/black"
+      android:text="&quot;Tipo de ejercicio&quot; / &quot;series&quot; / &quot;repeticiones&quot;"
+      android:gravity="center"
+      android:textSize="40dp"
+      android:background="@android:color/holo_blue_dark" />
+</LinearLayout>

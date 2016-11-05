@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="REGISTRO PACIENTE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="59.5dp"
+        android:id="@+id/tituloMisDatosClini"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroHbA1c"
+        android:text="HbA1c"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroHOMA"
+        android:text="HOMA"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroReaccionAlergica1"
+        android:text="Reacción Alérgica 1"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroReaccionAlergica2"
+        android:text="Reacción Alérgica 2"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroReaccionAlergica3"
+        android:text="Reacción Alérgica 3"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroEnfCro1"
+        android:text="Enfermedad Crónica 1"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroEnfCro2"
+        android:text="Enfermedad Crónica 2"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroEnfCro3"
+        android:text="Enfermedad Crónica 3"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroLesionF1"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:text="Lesión Física 1" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroLesionF2"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:text="Lesión Física 2" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registroLesionF3"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:text="Lesión Física 3 " />
+    <Button
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="66.0dp"
+        android:id="@+id/buttonGuardar"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_margin="15dp" />
+</LinearLayout>
